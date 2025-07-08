@@ -33,6 +33,8 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 # Set up your git credentials (if not already done)
 git config user.name "Your Name"
 git config user.email "your.email@example.com"
+
+push-cmd: git push -u origin main
 ```
 
 ### 3. Test the Script
